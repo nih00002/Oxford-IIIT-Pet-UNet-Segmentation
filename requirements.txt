@@ -1,0 +1,11 @@
+# Use mutually compatible PyTorch and torchvision wheels for your machine.
+# Google Colab normally includes these dependencies.
+torch
+torchvision
+numpy
+pandas
+matplotlib
+Pillow
+tqdm
+ipython
+jupyter

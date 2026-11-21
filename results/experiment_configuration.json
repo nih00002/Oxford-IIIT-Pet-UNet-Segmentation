@@ -1,0 +1,29 @@
+{
+  "dataset": "Oxford-IIIT Pet",
+  "splits": {
+    "train": 3311,
+    "validation": 369,
+    "official_test": 3669
+  },
+  "seeds": [
+    42,
+    123
+  ],
+  "segmentation_classes": [
+    "Foreground (pet)",
+    "Background",
+    "Boundary"
+  ],
+  "image_size": 192,
+  "batch_size": 12,
+  "max_epochs": 20,
+  "early_stopping_patience": 6,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "base_channels": 24,
+  "best_epochs": {
+    "42": 20,
+    "123": 19
+  },
+  "metric_protocol": "global test-set per-class pixel counts, then macro average"
+}
